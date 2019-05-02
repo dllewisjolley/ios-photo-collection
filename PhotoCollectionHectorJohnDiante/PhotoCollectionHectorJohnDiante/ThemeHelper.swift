@@ -23,15 +23,11 @@ class ThemeHelper {
 
 
     var themePreference: String? {
-        let userDefaultsBool = UserDefaults.standard.bool(forKey: themePreferenceKey!)
 
-        if userDefaultsBool == true {
+        guard let themePreferenceKey = themePreferenceKey else { return nil }
+        guard let self = UserDefaults.standard.string(forKey: themePreferenceKey) else { return nil }
 
-
-            return "Dark"
-        }
-        return "Yellow"
-
+        return self
     }
 
 
