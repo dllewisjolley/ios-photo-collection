@@ -10,7 +10,7 @@ import Foundation
 
 class PhotoController {
 
-    var photos: [Photo] = []
+   private(set) var photos: [Photo] = []
 
     func create(imageData: Data, title: String) {
         let newPhoto = Photo(imageData: imageData, title: title)
@@ -18,5 +18,23 @@ class PhotoController {
         photos.append(newPhoto)
 
     }
+
+
+    func update(photo: Photo, imageData: Data, title: String) {
+
+        if let index = getPhotoIndex(photo: photo) {
+            photos[index].imageData = imageData
+            photos[index].title = title
+
+        }
+    }
+
+    private func getPhotoIndex(photo: Photo) -> Int? {
+
+        guard let index = photos.index(of: photo) else { return nil }
+        return index
+
+    }
+
 
 }
