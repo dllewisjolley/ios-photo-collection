@@ -81,9 +81,7 @@
                     <navigationItem key="navigationItem" id="oaU-R8-R34">
                         <barButtonItem key="leftBarButtonItem" title="Select Theme" id="xqS-uR-o9k">
                             <connections>
-                                <segue destination="atf-ET-UQy" kind="popoverPresentation" popoverAnchorBarButtonItem="xqS-uR-o9k" id="USy-i2-Htk">
-                                    <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
-                                </segue>
+                                <segue destination="atf-ET-UQy" kind="presentation" identifier="themeSegue" id="USy-i2-Htk"/>
                             </connections>
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" title="Add" id="Zn0-yn-gUE">

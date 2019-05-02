@@ -10,9 +10,18 @@ import UIKit
 
 class PhotosCollectionViewCell: UICollectionViewCell {
 	
+	 func Views() {
+		
+	}
 	
 	@IBOutlet var imageView: UIImageView!
 	@IBOutlet var photoLabel: UILabel!
+	
+	var photo: Photo? {
+		didSet {
+			
+		}
+	}
 	
 	
 	
