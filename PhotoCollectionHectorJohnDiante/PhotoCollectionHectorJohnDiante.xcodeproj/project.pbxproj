@@ -14,6 +14,7 @@
 		9EEB1C04227B8E8F00433FDD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EEB1C02227B8E8F00433FDD /* LaunchScreen.storyboard */; };
 		9EEB1C0C227B8FDE00433FDD /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EEB1C0B227B8FDE00433FDD /* Photo.swift */; };
 		9EEB1C0E227B908F00433FDD /* PhotoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EEB1C0D227B908F00433FDD /* PhotoController.swift */; };
+		9EEB1C10227B93A900433FDD /* ThemeHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EEB1C0F227B93A900433FDD /* ThemeHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		9EEB1C05227B8E8F00433FDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9EEB1C0B227B8FDE00433FDD /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
 		9EEB1C0D227B908F00433FDD /* PhotoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoController.swift; sourceTree = "<group>"; };
+		9EEB1C0F227B93A900433FDD /* ThemeHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				9EEB1BFD227B8E7600433FDD /* Main.storyboard */,
 				9EEB1C0B227B8FDE00433FDD /* Photo.swift */,
 				9EEB1C0D227B908F00433FDD /* PhotoController.swift */,
+				9EEB1C0F227B93A900433FDD /* ThemeHelper.swift */,
 				9EEB1C00227B8E8F00433FDD /* Assets.xcassets */,
 				9EEB1C02227B8E8F00433FDD /* LaunchScreen.storyboard */,
 				9EEB1C05227B8E8F00433FDD /* Info.plist */,
@@ -144,6 +147,7 @@
 				9EEB1C0C227B8FDE00433FDD /* Photo.swift in Sources */,
 				9EEB1BFC227B8E7600433FDD /* ViewController.swift in Sources */,
 				9EEB1C0E227B908F00433FDD /* PhotoController.swift in Sources */,
+				9EEB1C10227B93A900433FDD /* ThemeHelper.swift in Sources */,
 				9EEB1BFA227B8E7600433FDD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
