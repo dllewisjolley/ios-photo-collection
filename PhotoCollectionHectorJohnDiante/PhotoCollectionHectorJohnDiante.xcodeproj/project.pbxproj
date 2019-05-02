@@ -67,14 +67,14 @@
 			isa = PBXGroup;
 			children = (
 				9EEB1C0B227B8FDE00433FDD /* Photo.swift */,
+				9EEB1C0F227B93A900433FDD /* ThemeHelper.swift */,
 				9EEB1C0D227B908F00433FDD /* PhotoController.swift */,
+				E8326B01227BA60200443A99 /* ThemeSelectionViewController.swift */,
 				E8326AFB227B9F8200443A99 /* PhotosCollectionViewController.swift */,
 				E8326AFD227B9FB100443A99 /* PhotosCollectionViewCell.swift */,
 				E8326AFF227BA29100443A99 /* PhotoDetailViewController.swift */,
-				E8326B01227BA60200443A99 /* ThemeSelectionViewController.swift */,
 				9EEB1BFD227B8E7600433FDD /* Main.storyboard */,
 				9EEB1BF9227B8E7600433FDD /* AppDelegate.swift */,
-				9EEB1C0F227B93A900433FDD /* ThemeHelper.swift */,
 				9EEB1C00227B8E8F00433FDD /* Assets.xcassets */,
 				9EEB1C02227B8E8F00433FDD /* LaunchScreen.storyboard */,
 				9EEB1C05227B8E8F00433FDD /* Info.plist */,

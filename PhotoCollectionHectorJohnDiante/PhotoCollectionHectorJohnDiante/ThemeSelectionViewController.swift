@@ -19,5 +19,5 @@ class ThemeSelectionViewController: UIViewController {
 	}
 	@IBAction func darkButtonPressed(_ sender: Any) {
 	}
-	
+	var themeHelper: ThemeHelper?
 }
