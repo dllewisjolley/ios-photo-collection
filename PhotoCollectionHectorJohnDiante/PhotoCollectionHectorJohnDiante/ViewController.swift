@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  PhotoCollection
+//  PhotoCollectionHectorJohnDiante
 //
 //  Created by Diante Lewis-Jolley on 5/2/19.
 //  Copyright © 2019 Diante Lewis-Jolley. All rights reserved.

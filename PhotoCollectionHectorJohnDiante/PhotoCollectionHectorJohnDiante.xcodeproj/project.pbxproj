@@ -7,25 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9EEB1BDC227B8B6700433FDD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EEB1BDB227B8B6700433FDD /* AppDelegate.swift */; };
-		9EEB1BDE227B8B6700433FDD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EEB1BDD227B8B6700433FDD /* ViewController.swift */; };
-		9EEB1BE1227B8B6700433FDD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EEB1BDF227B8B6700433FDD /* Main.storyboard */; };
-		9EEB1BE3227B8B9100433FDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EEB1BE2227B8B9100433FDD /* Assets.xcassets */; };
-		9EEB1BE6227B8B9200433FDD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EEB1BE4227B8B9200433FDD /* LaunchScreen.storyboard */; };
+		9EEB1BFA227B8E7600433FDD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EEB1BF9227B8E7600433FDD /* AppDelegate.swift */; };
+		9EEB1BFC227B8E7600433FDD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EEB1BFB227B8E7600433FDD /* ViewController.swift */; };
+		9EEB1BFF227B8E7600433FDD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EEB1BFD227B8E7600433FDD /* Main.storyboard */; };
+		9EEB1C01227B8E8F00433FDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EEB1C00227B8E8F00433FDD /* Assets.xcassets */; };
+		9EEB1C04227B8E8F00433FDD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EEB1C02227B8E8F00433FDD /* LaunchScreen.storyboard */; };
+		9EEB1C0C227B8FDE00433FDD /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EEB1C0B227B8FDE00433FDD /* Photo.swift */; };
+		9EEB1C0E227B908F00433FDD /* PhotoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EEB1C0D227B908F00433FDD /* PhotoController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9EEB1BD8227B8B6700433FDD /* PhotoCollection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoCollection.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		9EEB1BDB227B8B6700433FDD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9EEB1BDD227B8B6700433FDD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		9EEB1BE0227B8B6700433FDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9EEB1BE2227B8B9100433FDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		9EEB1BE5227B8B9200433FDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		9EEB1BE7227B8B9200433FDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9EEB1BF6227B8E7600433FDD /* PhotoCollectionHectorJohnDiante.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoCollectionHectorJohnDiante.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EEB1BF9227B8E7600433FDD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9EEB1BFB227B8E7600433FDD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9EEB1BFE227B8E7600433FDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9EEB1C00227B8E8F00433FDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9EEB1C03227B8E8F00433FDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9EEB1C05227B8E8F00433FDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9EEB1C0B227B8FDE00433FDD /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		9EEB1C0D227B908F00433FDD /* PhotoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		9EEB1BD5227B8B6700433FDD /* Frameworks */ = {
+		9EEB1BF3227B8E7600433FDD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -35,71 +39,73 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9EEB1BCF227B8B6600433FDD = {
+		9EEB1BED227B8E7600433FDD = {
 			isa = PBXGroup;
 			children = (
-				9EEB1BDA227B8B6700433FDD /* PhotoCollection */,
-				9EEB1BD9227B8B6700433FDD /* Products */,
+				9EEB1BF8227B8E7600433FDD /* PhotoCollectionHectorJohnDiante */,
+				9EEB1BF7227B8E7600433FDD /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		9EEB1BD9227B8B6700433FDD /* Products */ = {
+		9EEB1BF7227B8E7600433FDD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9EEB1BD8227B8B6700433FDD /* PhotoCollection.app */,
+				9EEB1BF6227B8E7600433FDD /* PhotoCollectionHectorJohnDiante.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9EEB1BDA227B8B6700433FDD /* PhotoCollection */ = {
+		9EEB1BF8227B8E7600433FDD /* PhotoCollectionHectorJohnDiante */ = {
 			isa = PBXGroup;
 			children = (
-				9EEB1BDB227B8B6700433FDD /* AppDelegate.swift */,
-				9EEB1BDD227B8B6700433FDD /* ViewController.swift */,
-				9EEB1BDF227B8B6700433FDD /* Main.storyboard */,
-				9EEB1BE2227B8B9100433FDD /* Assets.xcassets */,
-				9EEB1BE4227B8B9200433FDD /* LaunchScreen.storyboard */,
-				9EEB1BE7227B8B9200433FDD /* Info.plist */,
+				9EEB1BF9227B8E7600433FDD /* AppDelegate.swift */,
+				9EEB1BFB227B8E7600433FDD /* ViewController.swift */,
+				9EEB1BFD227B8E7600433FDD /* Main.storyboard */,
+				9EEB1C0B227B8FDE00433FDD /* Photo.swift */,
+				9EEB1C0D227B908F00433FDD /* PhotoController.swift */,
+				9EEB1C00227B8E8F00433FDD /* Assets.xcassets */,
+				9EEB1C02227B8E8F00433FDD /* LaunchScreen.storyboard */,
+				9EEB1C05227B8E8F00433FDD /* Info.plist */,
 			);
-			path = PhotoCollection;
+			path = PhotoCollectionHectorJohnDiante;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9EEB1BD7227B8B6700433FDD /* PhotoCollection */ = {
+		9EEB1BF5227B8E7600433FDD /* PhotoCollectionHectorJohnDiante */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9EEB1BEA227B8B9200433FDD /* Build configuration list for PBXNativeTarget "PhotoCollection" */;
+			buildConfigurationList = 9EEB1C08227B8E8F00433FDD /* Build configuration list for PBXNativeTarget "PhotoCollectionHectorJohnDiante" */;
 			buildPhases = (
-				9EEB1BD4227B8B6700433FDD /* Sources */,
-				9EEB1BD5227B8B6700433FDD /* Frameworks */,
-				9EEB1BD6227B8B6700433FDD /* Resources */,
+				9EEB1BF2227B8E7600433FDD /* Sources */,
+				9EEB1BF3227B8E7600433FDD /* Frameworks */,
+				9EEB1BF4227B8E7600433FDD /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = PhotoCollection;
-			productName = PhotoCollection;
-			productReference = 9EEB1BD8227B8B6700433FDD /* PhotoCollection.app */;
+			name = PhotoCollectionHectorJohnDiante;
+			productName = PhotoCollectionHectorJohnDiante;
+			productReference = 9EEB1BF6227B8E7600433FDD /* PhotoCollectionHectorJohnDiante.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		9EEB1BD0227B8B6600433FDD /* Project object */ = {
+		9EEB1BEE227B8E7600433FDD /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1010;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Diante Lewis-Jolley";
 				TargetAttributes = {
-					9EEB1BD7227B8B6700433FDD = {
+					9EEB1BF5227B8E7600433FDD = {
 						CreatedOnToolsVersion = 10.1;
 					};
 				};
 			};
-			buildConfigurationList = 9EEB1BD3227B8B6600433FDD /* Build configuration list for PBXProject "PhotoCollection" */;
+			buildConfigurationList = 9EEB1BF1227B8E7600433FDD /* Build configuration list for PBXProject "PhotoCollectionHectorJohnDiante" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -107,54 +113,56 @@
 				en,
 				Base,
 			);
-			mainGroup = 9EEB1BCF227B8B6600433FDD;
-			productRefGroup = 9EEB1BD9227B8B6700433FDD /* Products */;
+			mainGroup = 9EEB1BED227B8E7600433FDD;
+			productRefGroup = 9EEB1BF7227B8E7600433FDD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9EEB1BD7227B8B6700433FDD /* PhotoCollection */,
+				9EEB1BF5227B8E7600433FDD /* PhotoCollectionHectorJohnDiante */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		9EEB1BD6227B8B6700433FDD /* Resources */ = {
+		9EEB1BF4227B8E7600433FDD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9EEB1BE6227B8B9200433FDD /* LaunchScreen.storyboard in Resources */,
-				9EEB1BE3227B8B9100433FDD /* Assets.xcassets in Resources */,
-				9EEB1BE1227B8B6700433FDD /* Main.storyboard in Resources */,
+				9EEB1C04227B8E8F00433FDD /* LaunchScreen.storyboard in Resources */,
+				9EEB1C01227B8E8F00433FDD /* Assets.xcassets in Resources */,
+				9EEB1BFF227B8E7600433FDD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		9EEB1BD4227B8B6700433FDD /* Sources */ = {
+		9EEB1BF2227B8E7600433FDD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9EEB1BDE227B8B6700433FDD /* ViewController.swift in Sources */,
-				9EEB1BDC227B8B6700433FDD /* AppDelegate.swift in Sources */,
+				9EEB1C0C227B8FDE00433FDD /* Photo.swift in Sources */,
+				9EEB1BFC227B8E7600433FDD /* ViewController.swift in Sources */,
+				9EEB1C0E227B908F00433FDD /* PhotoController.swift in Sources */,
+				9EEB1BFA227B8E7600433FDD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		9EEB1BDF227B8B6700433FDD /* Main.storyboard */ = {
+		9EEB1BFD227B8E7600433FDD /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				9EEB1BE0227B8B6700433FDD /* Base */,
+				9EEB1BFE227B8E7600433FDD /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		9EEB1BE4227B8B9200433FDD /* LaunchScreen.storyboard */ = {
+		9EEB1C02227B8E8F00433FDD /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				9EEB1BE5227B8B9200433FDD /* Base */,
+				9EEB1C03227B8E8F00433FDD /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -162,7 +170,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		9EEB1BE8227B8B9200433FDD /* Debug */ = {
+		9EEB1C06227B8E8F00433FDD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -223,7 +231,7 @@
 			};
 			name = Debug;
 		};
-		9EEB1BE9227B8B9200433FDD /* Release */ = {
+		9EEB1C07227B8E8F00433FDD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -278,36 +286,36 @@
 			};
 			name = Release;
 		};
-		9EEB1BEB227B8B9200433FDD /* Debug */ = {
+		9EEB1C09227B8E8F00433FDD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TP75B2J23B;
-				INFOPLIST_FILE = PhotoCollection/Info.plist;
+				INFOPLIST_FILE = PhotoCollectionHectorJohnDiante/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.Diantelewisjolley.PhotoCollection;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Diantelewisjolley.PhotoCollectionHectorJohnDiante;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		9EEB1BEC227B8B9200433FDD /* Release */ = {
+		9EEB1C0A227B8E8F00433FDD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TP75B2J23B;
-				INFOPLIST_FILE = PhotoCollection/Info.plist;
+				INFOPLIST_FILE = PhotoCollectionHectorJohnDiante/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.Diantelewisjolley.PhotoCollection;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Diantelewisjolley.PhotoCollectionHectorJohnDiante;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -317,25 +325,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9EEB1BD3227B8B6600433FDD /* Build configuration list for PBXProject "PhotoCollection" */ = {
+		9EEB1BF1227B8E7600433FDD /* Build configuration list for PBXProject "PhotoCollectionHectorJohnDiante" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9EEB1BE8227B8B9200433FDD /* Debug */,
-				9EEB1BE9227B8B9200433FDD /* Release */,
+				9EEB1C06227B8E8F00433FDD /* Debug */,
+				9EEB1C07227B8E8F00433FDD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9EEB1BEA227B8B9200433FDD /* Build configuration list for PBXNativeTarget "PhotoCollection" */ = {
+		9EEB1C08227B8E8F00433FDD /* Build configuration list for PBXNativeTarget "PhotoCollectionHectorJohnDiante" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9EEB1BEB227B8B9200433FDD /* Debug */,
-				9EEB1BEC227B8B9200433FDD /* Release */,
+				9EEB1C09227B8E8F00433FDD /* Debug */,
+				9EEB1C0A227B8E8F00433FDD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 9EEB1BD0227B8B6600433FDD /* Project object */;
+	rootObject = 9EEB1BEE227B8E7600433FDD /* Project object */;
 }
