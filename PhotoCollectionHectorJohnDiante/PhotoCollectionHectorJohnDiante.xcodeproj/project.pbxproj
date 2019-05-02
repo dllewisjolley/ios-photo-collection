@@ -16,6 +16,7 @@
 		9EEB1C10227B93A900433FDD /* ThemeHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EEB1C0F227B93A900433FDD /* ThemeHelper.swift */; };
 		E8326AFC227B9F8200443A99 /* PhotosCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8326AFB227B9F8200443A99 /* PhotosCollectionViewController.swift */; };
 		E8326AFE227B9FB100443A99 /* PhotosCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8326AFD227B9FB100443A99 /* PhotosCollectionViewCell.swift */; };
+		E8326B00227BA29100443A99 /* PhotoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8326AFF227BA29100443A99 /* PhotoDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		9EEB1C0F227B93A900433FDD /* ThemeHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeHelper.swift; sourceTree = "<group>"; };
 		E8326AFB227B9F8200443A99 /* PhotosCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosCollectionViewController.swift; sourceTree = "<group>"; };
 		E8326AFD227B9FB100443A99 /* PhotosCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosCollectionViewCell.swift; sourceTree = "<group>"; };
+		E8326AFF227BA29100443A99 /* PhotoDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				9EEB1C0B227B8FDE00433FDD /* Photo.swift */,
 				9EEB1C0D227B908F00433FDD /* PhotoController.swift */,
 				E8326AFB227B9F8200443A99 /* PhotosCollectionViewController.swift */,
+				E8326AFF227BA29100443A99 /* PhotoDetailViewController.swift */,
 				E8326AFD227B9FB100443A99 /* PhotosCollectionViewCell.swift */,
 				9EEB1BFD227B8E7600433FDD /* Main.storyboard */,
 				9EEB1BF9227B8E7600433FDD /* AppDelegate.swift */,
@@ -150,6 +153,7 @@
 				9EEB1C0C227B8FDE00433FDD /* Photo.swift in Sources */,
 				9EEB1C0E227B908F00433FDD /* PhotoController.swift in Sources */,
 				9EEB1C10227B93A900433FDD /* ThemeHelper.swift in Sources */,
+				E8326B00227BA29100443A99 /* PhotoDetailViewController.swift in Sources */,
 				E8326AFC227B9F8200443A99 /* PhotosCollectionViewController.swift in Sources */,
 				9EEB1BFA227B8E7600433FDD /* AppDelegate.swift in Sources */,
 				E8326AFE227B9FB100443A99 /* PhotosCollectionViewCell.swift in Sources */,
