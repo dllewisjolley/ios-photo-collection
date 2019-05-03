@@ -12,15 +12,20 @@ class ThemeHelper {
     init() {
         if themePreference == nil {
             setThemePreferenceToDark()
+			
 		}
     }
 
     var themePreferenceKey: String?
+	
+	func setKey() {
+		
+	}
 
     var themePreference: String? {
         guard let themePreferenceKey = themePreferenceKey else { return nil }
-        guard let self = UserDefaults.standard.string(forKey: themePreferenceKey) else { return nil }
-        return self
+        guard let str = UserDefaults.standard.string(forKey: themePreferenceKey) else { return nil }
+        return str
     }
 
     func setThemePreferenceToDark() {

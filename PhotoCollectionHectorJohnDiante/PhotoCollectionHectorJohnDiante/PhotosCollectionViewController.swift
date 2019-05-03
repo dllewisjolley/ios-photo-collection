@@ -12,13 +12,13 @@ class PhotosCollectionViewController: UICollectionViewController {
 
 	override func viewDidAppear(_ animated: Bool) {
 		super.viewDidAppear(animated)
+		setTheme()
 		collectionView.reloadData()
-		
 	}
 	
     override func viewDidLoad() {
         super.viewDidLoad()
-		setTheme()
+
 
     }
 	override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
@@ -37,11 +37,12 @@ class PhotosCollectionViewController: UICollectionViewController {
 	}
 	
 	func setTheme() {
+		
 		if themeHelper.themePreference == "Dark" {
 			collectionView.backgroundColor = .lightGray
-		} else {
-			collectionView.backgroundColor = .yellow
 		}
+		
+
 	}
 	
 	
