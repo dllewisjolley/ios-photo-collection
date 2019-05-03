@@ -13,12 +13,12 @@ class PhotosCollectionViewController: UICollectionViewController {
 	override func viewDidAppear(_ animated: Bool) {
 		super.viewDidAppear(animated)
 		collectionView.reloadData()
-		print("\(photoController.photos.count)")
+		
 	}
 	
     override func viewDidLoad() {
         super.viewDidLoad()
-		
+		setTheme()
 
     }
 	override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
@@ -30,7 +30,7 @@ class PhotosCollectionViewController: UICollectionViewController {
 		guard let photoCell = cell as? PhotosCollectionViewCell else { return cell }
 		let photo = photoController.photos[indexPath.item]
 		
-		photoCell.imageView.image =  UIImage(data: photo.imageData)
+		photoCell.imageView.image =  UIImage(data: photo.imageData) 
 		photoCell.photoLabel.text = photo.title
 
 		return photoCell
@@ -38,9 +38,9 @@ class PhotosCollectionViewController: UICollectionViewController {
 	
 	func setTheme() {
 		if themeHelper.themePreference == "Dark" {
-			view.backgroundColor = .lightGray
+			collectionView.backgroundColor = .lightGray
 		} else {
-			view.backgroundColor = .yellow
+			collectionView.backgroundColor = .yellow
 		}
 	}
 	
@@ -63,7 +63,7 @@ class PhotosCollectionViewController: UICollectionViewController {
 			guard let cell = sender as? PhotosCollectionViewCell else { return }
 			guard let indexpath = collectionView.indexPath(for: cell) else { return }
 			let photo = photoController.photos[indexpath.row]
-
+			
 			vc.photo = photo
 			vc.themeHelper = themeHelper
 		}

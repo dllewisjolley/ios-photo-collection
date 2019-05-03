@@ -48,6 +48,9 @@
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                     </subviews>
+                                                    <constraints>
+                                                        <constraint firstItem="zfT-pG-JHY" firstAttribute="top" secondItem="At9-EE-9zC" secondAttribute="bottom" constant="8" id="njU-1x-NKE"/>
+                                                    </constraints>
                                                 </stackView>
                                             </subviews>
                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -96,10 +99,10 @@
             </objects>
             <point key="canvasLocation" x="1055.072463768116" y="133.92857142857142"/>
         </scene>
-        <!--View Controller-->
+        <!--Theme Selection View Controller-->
         <scene sceneID="EGX-Zc-fjK">
             <objects>
-                <viewController id="atf-ET-UQy" sceneMemberID="viewController">
+                <viewController id="atf-ET-UQy" customClass="ThemeSelectionViewController" customModule="PhotoCollectionHectorJohnDiante" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5tE-Ji-b7j">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -130,14 +133,14 @@
                                 <rect key="frame" x="72" y="265.5" width="33" height="30"/>
                                 <state key="normal" title="Dark"/>
                                 <connections>
-                                    <action selector="darkButtonPressed:" destination="2Fg-Sy-fTe" eventType="touchUpInside" id="SHW-pj-lK6"/>
+                                    <action selector="darkButtonPressed:" destination="atf-ET-UQy" eventType="touchUpInside" id="Jmd-VY-r9M"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C7F-st-XkU">
                                 <rect key="frame" x="268" y="265.5" width="44" height="30"/>
                                 <state key="normal" title="Yellow"/>
                                 <connections>
-                                    <action selector="yellowButtonPressed:" destination="2Fg-Sy-fTe" eventType="touchUpInside" id="uK5-SY-yZg"/>
+                                    <action selector="yellowButtonPressed:" destination="atf-ET-UQy" eventType="touchUpInside" id="sBE-71-iPO"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -156,7 +159,6 @@
                     <navigationItem key="navigationItem" id="CtH-5q-DlO"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tmh-ds-Fst" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <exit id="2Fg-Sy-fTe" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="545" y="915"/>
         </scene>
@@ -238,6 +240,6 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="vyG-BG-2sa"/>
+        <segue reference="qrt-E2-azL"/>
     </inferredMetricsTieBreakers>
 </document>

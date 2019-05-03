@@ -21,11 +21,10 @@ class PhotoDetailViewController: UIViewController {
 			if let image = imageView.image, let text = photoTextField.text {
 				if let data = image.pngData() {
 					photoController.create(imageData: data, title: text)
-					print("addPhoto")
 				}
 			}
 		}
-		dismiss(animated: true)
+		navigationController?.popViewController(animated: true)
 	}
 	
 	func importPicture() {
@@ -37,9 +36,13 @@ class PhotoDetailViewController: UIViewController {
 	
 	func setupViews() {
 		if let photo = photo {
-			imageView.image = UIImage(data: photo.imageData)
-			photoTextField.text = photo.title
+			if let image = UIImage(data: photo.imageData) {
+				guard let image = image.pngData() else {return }
+				imageView.image = UIImage(data: image)
+				photoTextField.text = photo.title
+			}
 		}
+
 	}
 	
 	@IBOutlet var imageView: UIImageView!
@@ -52,12 +55,7 @@ class PhotoDetailViewController: UIViewController {
 		}
 	}
 	
-	var photo: Photo? {
-		didSet {
-			setupViews()
-			
-		}
-	}
+	var photo: Photo? 
 	
 	var themeHelper: ThemeHelper?
 
