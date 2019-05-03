@@ -43,19 +43,18 @@ class PhotosCollectionViewController: UICollectionViewController {
 		if segue.identifier == "themeSegue" {
 			guard let vc = segue.destination as? ThemeSelectionViewController else { return }
 			vc.themeHelper = themeHelper
-		} else if segue.identifier == "Detailsegue" {
+		} else if segue.identifier == "AddSegue" {
 			guard let vc = segue.destination as? PhotoDetailViewController else { return }
-//			guard let cell = sender as? PhotosCollectionViewCell else { return }
-//
-//			if let photo = cell.photo {
-//				vc.imageView.image = UIImage(data: photo.imageData)
-//				vc.photoTextField.text = photo.title
-//			}
-			
+			vc.photoController = photoController
+		} else if segue.identifier == "UpdateSegue" {
+			guard let vc = segue.destination as? PhotoDetailViewController else { return }
+			guard let cell = sender as? PhotosCollectionViewCell else { return }
+			guard let indexpath = collectionView.indexPath(for: cell) else { return }
+			let photo = photoController.photos[indexpath.row]
+
+			vc.photo = photo
+			vc.themeHelper = themeHelper
 		}
-		
-		
-		
 	}
 	
 	let photoController = PhotoController()
