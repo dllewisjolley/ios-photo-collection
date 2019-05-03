@@ -14,14 +14,11 @@ class PhotoController {
 
     func create(imageData: Data, title: String) {
         let newPhoto = Photo(imageData: imageData, title: title)
-
         photos.append(newPhoto)
-
     }
 
 
     func update(photo: Photo, imageData: Data, title: String) {
-
         if let index = getPhotoIndex(photo: photo) {
             photos[index].imageData = imageData
             photos[index].title = title
@@ -30,7 +27,6 @@ class PhotoController {
     }
 
     private func getPhotoIndex(photo: Photo) -> Int? {
-
         guard let index = photos.index(of: photo) else { return nil }
         return index
 

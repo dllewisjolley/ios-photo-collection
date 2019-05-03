@@ -10,8 +10,15 @@ import UIKit
 
 class PhotosCollectionViewController: UICollectionViewController {
 
+	override func viewDidAppear(_ animated: Bool) {
+		super.viewDidAppear(animated)
+		collectionView.reloadData()
+		print("\(photoController.photos.count)")
+	}
+	
     override func viewDidLoad() {
         super.viewDidLoad()
+		
 
     }
 	override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
@@ -41,12 +48,17 @@ class PhotosCollectionViewController: UICollectionViewController {
 	override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
 		
 		if segue.identifier == "themeSegue" {
+			
 			guard let vc = segue.destination as? ThemeSelectionViewController else { return }
 			vc.themeHelper = themeHelper
+			
 		} else if segue.identifier == "AddSegue" {
+			
 			guard let vc = segue.destination as? PhotoDetailViewController else { return }
 			vc.photoController = photoController
-		} else if segue.identifier == "UpdateSegue" {
+			
+		} else if segue.identifier == "updateSegue" {
+			
 			guard let vc = segue.destination as? PhotoDetailViewController else { return }
 			guard let cell = sender as? PhotosCollectionViewCell else { return }
 			guard let indexpath = collectionView.indexPath(for: cell) else { return }
